@@ -1,8 +1,5 @@
 <html>
-<head>
-<title>First
-</title></head>
 <body>
-<b><i>Thanks for CHecking my GIT</i></b>
+<b><i>Thanks for Checking my GIT</i></b>
 </body>
 </html>
