@@ -1,0 +1,20 @@
+.navbar-nav > li{
+  float:none;
+  vertical-align:bottom;
+}
+
+#site-logo{
+  position:relative;
+  vertical-align:bottom;
+  bottom:-100px;
+}
+
+#site-logo img{
+  margin-top:-160px;
+  opacity:0.9;
+}
+
+div.container{
+  background-color:white;
+}
+

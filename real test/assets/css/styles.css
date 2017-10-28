@@ -1,0 +1,300 @@
+body{
+      background-color:white;
+  	font-family:"Oswald"; 
+	font-style:normal; 
+	font-weight:400; 
+	src:local("Oswald Regular"),local("Oswald-Regular"),url("../fonts/Oswald-Regular-400.woff") format("woff");
+	margin: 0;
+}
+h1, p, span {
+  font-family: monospace;
+  font-weight: 300;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+}
+div#boxx{
+	width:100%;
+	margin-top:50px;
+	clear:both;
+	padding-left:5%;
+	padding-right:5%;
+	background-color:#C6191B;
+	height:60px;
+	color: white;
+}
+
+div#boxxleft{
+	padding-top:1px;
+float:left;
+}
+
+div#boxxright{
+	background-color:#C6191B;
+	float:right;
+	color: white;
+	position: fixed;
+	padding: 2px;
+	z-index:1;
+	top: 46px;
+	right:5%;
+}
+
+#Carousel{
+	margin:40px 5% -30px 5%;	
+}
+
+.item img{
+  width:100%;
+  height:25%;
+  margin:0 auto;
+}
+
+.container11{
+	background-color:#d8f0ea;
+	clear:both;
+	height:52rem;
+	margin-top:4rem;
+}
+.wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+  clear:both;
+}
+.box {
+	margin-top:2rem;
+  width: 30%;
+  height: 20rem;
+  padding: 0 2rem 3rem;
+  transition:
+    transform 0.3s linear 0s,
+    filter 0.5s linear 0.3s,
+    opacity 0.5s linear 0.3s;
+  /*transform-origin: top center;*/
+}
+.product {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.2rem;
+  background-image: url(https://www.lamnia.com/images/sg-150-Shirts_and_T-Shirts.jpg);
+  background-color: #fff;
+  background-position: top 3rem center;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.1);
+  transition:
+    box-shadow 0.5s linear,
+    height 0.1s linear 0s;
+}
+.name {
+  display: block;
+  padding: 1rem 0.5rem;
+}
+.description {
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+  right: 0;
+  display: block;
+  padding: 0 1.5rem;
+  opacity: 0;
+  transition: opacity 0.1s linear 0s;
+}
+.wrapper:hover .box:not(:hover)  {
+  filter: blur(3px);
+  opacity: 0.5;
+}
+.box:hover  {
+  transform: scale(1.1);
+  transition:
+    transform 0.3s linear 0.3s,
+    filter 0.1s linear 0s,
+    opacity 0.1s linear 0s;
+}
+.box:hover .product {
+  height: 23rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  transition:
+    box-shadow 1s linear,
+    height 0.3s linear 0.5s;
+}
+.box:hover .description {
+  opacity: 1;
+  transition: opacity 0.3s linear 0.75s;
+}
+
+
+
+
+
+
+
+.container11{
+	background-color:#d8f0ea;
+	clear:both;
+	height:52rem;
+	margin-top:4rem;
+}
+.wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.box {
+  margin-top:1rem;
+  width: 30%;
+  height: 20rem;
+  padding: 0 2rem 3rem;
+  transition:
+    transform 0.3s linear 0s,
+    filter 0.5s linear 0.3s,
+    opacity 0.5s linear 0.3s;
+  /*transform-origin: top center;*/
+}
+.product1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.2rem;
+  background-image: url(1.png);
+  background-color: #fff;
+  background-position: top 3rem center;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.1);
+  transition:
+    box-shadow 0.5s linear,
+    height 0.1s linear 0s;
+}
+.product2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.2rem;
+  background-image: url(2.png);
+  background-color: #fff;
+  background-position: top 3rem center;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.1);
+  transition:
+    box-shadow 0.5s linear,
+    height 0.1s linear 0s;
+}
+.product3 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.2rem;
+  background-image: url(3.png);
+  background-color: #fff;
+  background-position: top 3rem center;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.1);
+  transition:
+    box-shadow 0.5s linear,
+    height 0.1s linear 0s;
+}
+.product4 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.2rem;
+  background-image: url(1.png);
+  background-color: #fff;
+  background-position: top 3rem center;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.1);
+  transition:
+    box-shadow 0.5s linear,
+    height 0.1s linear 0s;
+}
+.name {
+  display: block;
+  padding: 1rem 0.5rem;
+}
+.description {
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+  right: 0;
+  display: block;
+  padding: 0 1.5rem;
+  opacity: 0;
+  transition: opacity 0.1s linear 0s;
+}
+.wrapper:hover .box:not(:hover)  {
+  filter: blur(3px);
+  opacity: 0.5;
+}
+.box:hover  {
+  transform: scale(1.0);
+  transition:
+    transform 0.3s linear 0.3s,
+    filter 0.1s linear 0s,
+    opacity 0.1s linear 0s;
+}
+.box:hover .product1 {
+  height: 23rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  transition:
+    box-shadow 1s linear,
+    height 0.3s linear 0.5s;
+}
+.box:hover .product2 {
+  height: 23rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  transition:
+    box-shadow 1s linear,
+    height 0.3s linear 0.5s;
+}
+.box:hover .product3 {
+  height: 23rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  transition:
+    box-shadow 1s linear,
+    height 0.3s linear 0.5s;
+}
+.box:hover .product4 {
+  height: 23rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  transition:
+    box-shadow 1s linear,
+    height 0.3s linear 0.5s;
+}
+.box:hover .description {
+  opacity: 1;
+  transition: opacity 0.3s linear 0.75s;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+	
+.carousel-slide{
+  margin:auto;
+}
+
+.item img{
+  height:25%;
+  margin:auto;
+}
+
+.carousel-control{
+  background:none!important;
+}
+
+
